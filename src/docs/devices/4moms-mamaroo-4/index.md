@@ -21,6 +21,8 @@ should be possible to put it inside the swing and connect to power jack using st
 
 ## Config
 
+Update the `mac_address` to match your MamaRoo to connect. It can be found in the logs of the esp32 device when first attempting to connect.
+
 ```yaml
 substitutions:
   name: 4moms-mamaroo-4
